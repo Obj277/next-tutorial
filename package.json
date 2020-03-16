@@ -1,0 +1,19 @@
+{
+  "name": "next-tutorial",
+  "version": "1.0.0",
+  "description": "Practice for Nextjs",
+  "main": "index.js",
+  "repository": "git@github.com:Obj277/next-tutorial.git",
+  "author": "Obj277",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
