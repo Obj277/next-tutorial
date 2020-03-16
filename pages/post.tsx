@@ -1,13 +1,14 @@
 import React from 'react';
 import {NextPage} from 'next';
 import Layout from '@components/Layout';
+import PostContent from '@components/PostContent';
 
-const About: NextPage = () => {
+const Post: NextPage = () => {
   return (
     <Layout>
-      <h1>About</h1>
+      <PostContent/>
     </Layout>
   );
 };
 
-export default About;
+export default Post;
