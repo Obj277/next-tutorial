@@ -2,13 +2,13 @@ import React from 'react';
 import Link from 'next/link';
 
 interface Props {
-  title: string;
+  id: string;
 }
-export default ({title}: Props) => {
+export default ({id}: Props) => {
   return (
     <li>
-      <Link href={`/post?title=${title}`}>
-        <a>{title}</a>
+      <Link href="/post/[id]" as={`/post/${id}`}>
+        <a>{id}</a>
       </Link>
     </li>
   );

@@ -6,7 +6,7 @@ export default () => {
 
   return (
     <>
-      <h1>{router.query.title}</h1>
+      <h1>{router.query.id}</h1>
       <p>{"router.query.content"}</p>
     </>
   );

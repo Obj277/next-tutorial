@@ -8,9 +8,9 @@ const Blog: NextPage = () => {
     <Layout>
       <h1>Blog</h1>
       <ul>
-        <PostLink title="Hello!"/>
-        <PostLink title="Seconds!!"/>
-        <PostLink title="Third!!!"/>
+        <PostLink id="Hello!"/>
+        <PostLink id="Seconds!!"/>
+        <PostLink id="Third!!!"/>
       </ul>
     </Layout>
   );
