@@ -21,9 +21,6 @@ export default () => {
       <Link href="/about">
         <a>About</a>
       </Link>
-      <Link href="/blog">
-        <a>Blog</a>
-      </Link>
     </div>
   );
 };
